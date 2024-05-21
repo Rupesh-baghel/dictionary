@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    font-family:" poppins ",sans-serif;
+    font-size: 16px;
+}
+.container { max-width: 1200px; margin: auto;}
+.box{
+    width: 300px;
+    margin: auto;
+    padding: 22px;
+    border-radius: 6px;
+    background-color: antiquewhite;
+    top:45px;
+     position: relative;   
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.searchbar{
+    display: flex;
+    gap: 4px;
+}
+#search{
+    width: 80%;
+    padding: 10px;
+    height: 45px;
+    border-radius: 5px; font-size: 20px; background:rgb(221, 219, 219); border: none; outline: none;
+}
+#btn{ width: 80px; padding: 8px 8px; border-radius: 5px; font-size: 20px;  margin-left: 10px; border: none; outline: none; background-color: aquamarine;}
+#btn:active{background-color: rgb(189, 250, 230);}
+
+.text{ padding: 15px; margin-top: 10px; flex-flow: row wrap;}
+.text p{font-size: 18px;}
+.text a{ text-decoration: none; color: black; background: aquamarine; font-size: 20px; border: 1px solid black; padding: 5px 8px ;}
+
+.dic{ margin-left: 15px;}
+    .synonym{ overflow-wrap: break-word;} 
+    .antonym{overflow-wrap: break-word;}
+/* 
+
+.searchbar{margin-left: 45px;}
+.text{ margin-left: 45px;}
+#search{ width: 280px; padding: 5px; border-radius: 5px; font-size: 20px; background:rgb(221, 219, 219); border: none; outline: none;}
+#btn{ width: 90px; padding: 5px; border-radius: 5px; font-size: 20px;  margin-left: 10px; border: none; outline: none; background-color: aquamarine;}
+#link{text-decoration: none; border:1px solid black  ; }
+  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
